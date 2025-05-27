@@ -1,0 +1,41 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyTorch model weights and checkpoints
+weights_rn/
+weights_gan/
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Images uploaded by user (optional, if you want to ignore uploads)
+uploads/
